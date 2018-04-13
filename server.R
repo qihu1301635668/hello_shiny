@@ -1,4 +1,4 @@
-libarary(shiny)
+library(shiny)
 shinyServer(function(input, output, session) {
   # Store in a convenience variable
   cdata <- session$clientData
